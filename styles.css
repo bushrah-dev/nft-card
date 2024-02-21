@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    background:  hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+.card{
+    margin: 20px;
+    padding: 30px;
+    width: 370px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(216, 50%, 16%) ;
+    border-radius: 10px;
+}
+img{
+    height: 10%;
+    margin-top: 30px;
+}
+.image img{
+    border-radius: 20px;
+    height: 350px;
+    width: 400px;
+    margin-top: 110px;
+    padding-top: 10px;
+}
+.header{
+    color:hsl(0, 0%, 100%) ;
+}
+.header:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.word{
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: -60px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    color: hsl(0, 0%, 100%);
+    /* margin-top: 4px; */
+}
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    margin-left: 3px;
+    padding-bottom: 100px;
+    
+}
+ .avatar{
+    /* margin-top: 20px; */
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.name{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-top: 43px;
+    padding-left: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.jul{
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+}
+.jul:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
